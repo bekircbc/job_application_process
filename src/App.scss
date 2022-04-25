@@ -81,13 +81,18 @@ body {
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
+			align-content: center;
+			flex-wrap: wrap;
 			li.job {
 				margin: 10px;
 				padding: 10px;
 				background-color: whitesmoke;
-				width: 100px;
+				width: 130px;
+				height: 80px;
 				border-radius: 10px;
 				list-style-type: none;
+				align-items: center;
+				justify-content: center;
 
 				a {
 					color: rgb(192, 111, 45);
