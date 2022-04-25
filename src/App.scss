@@ -11,11 +11,15 @@ body {
 		width: 600px;
 
 		.toggle {
-			background-color: #f5cac3;
+			background-color: #f7ede2;
 			padding: 10px;
 			border-radius: 10px;
 			width: 150px;
 			font-size: 1.2rem;
+		}
+		.toggle:hover {
+			background-color: #fde2e4;
+			color: #495057;
 		}
 
 		.jobs {
@@ -28,6 +32,7 @@ body {
 				.header {
 					display: flex;
 					justify-content: space-between;
+					padding: 10px;
 
 					.position {
 						a {
@@ -40,20 +45,26 @@ body {
 					}
 
 					.status {
-						background-color: #f5cac3;
+						background-color: #f7ede2;
 						padding: 3px;
 						border-radius: 10px;
 						width: 100px;
 						font-size: 0.9rem;
 					}
+					.status:hover {
+						background-color: #fde2e4;
+						color: #495057;
+					}
 				}
 
 				.skills {
 					color: rgb(203, 203, 87);
+					padding: 10px;
 				}
 
 				.bulkText {
 					font-size: 0.9rem;
+					padding: 10px;
 				}
 			}
 
