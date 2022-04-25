@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.scss';
-import _jobs from './data/jobs.json';
+import _jobs from './data/data.json';
 
 _jobs.forEach((job) => {
 	job.status = 'send';
