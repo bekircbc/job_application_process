@@ -3,8 +3,10 @@ import './App.scss';
 import _jobs from `./data/data.json`;
 
 _jobs.forEach((job)=> {
-  job.status=`accepted`
+  job.status=`accepted`;
 });
+
+const statuses = [`send`, `wait`, `interview`, `declined`, `accepted`];
 
 function App() {
 	return <div className="App">Hello!</div>;
