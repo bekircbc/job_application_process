@@ -36,7 +36,9 @@ export const Jobs = () => {
 	return (
 		<>
 			<h1>Job Application Process</h1>
-			<button onClick={handleToggleView}>Toggle View</button>
+			<button className="toggle" onClick={handleToggleView}>
+				Toggle View
+			</button>
 			{displayKind === 'full' ? (
 				<div className="jobs">
 					{jobs.map((job, index) => {
