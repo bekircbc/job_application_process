@@ -4,6 +4,7 @@ import { useState } from 'react';
 _jobs.forEach((job) => {
 	job.status = 'send';
 });
+
 export const Jobs = () => {
 	const [displayKind, setDisplayKind] = useState('full');
 	const [jobs, setJobs] = useState(_jobs);
